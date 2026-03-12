@@ -1,0 +1,29 @@
+# dependencies
+frontend/node_modules/
+backend/venv/
+backend/env/
+backend/__pycache__/
+backend/app/**/__pycache__/
+
+# next.js build
+frontend/.next/
+frontend/out/
+
+# env files
+.env
+.env.local
+.env.*.local
+frontend/.env.local
+
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# os
+.DS_Store
+Thumbs.db
+
+# reference repo — not part of the project
+temp_worldmonitor/
