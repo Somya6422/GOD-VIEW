@@ -2,7 +2,7 @@
 
 # 🌐 GOD VIEW
 ### **Global Ontology Engine for Digital Intelligence**
-*Built by **Team ASTRA-X** • Hackathon Submission: Digital Democracy Domain*
+*Built by **Team ASTRA-X** • Hackathon Submission: Digital Democracy Domain (Domain 2)*
 
 [![Next.js](https://img.shields.io/badge/Frontend-Next.js%2016-black?logo=next.js)](https://nextjs.org/)
 [![CesiumJS](https://img.shields.io/badge/3D%20Engine-CesiumJS-blue?logo=cesium)](https://cesium.com/)
@@ -33,6 +33,9 @@ Intelligence agencies, defense analysts, and national security planners are forc
 ---
 
 ## 💡 The Solution: A Sovereign Cognitive Digital Twin
+
+<img width="1909" height="911" alt="Screenshot 2026-03-10 072421" src="https://github.com/user-attachments/assets/719a2077-0940-4cb4-a3fa-ba4381879c7a" />
+<img width="1901" height="913" alt="Screenshot 2026-03-10 072456" src="https://github.com/user-attachments/assets/b0793901-5c5e-48a8-a741-e8faaf34cccd" />
 
 **GOD VIEW** is not a map. It is an **AI-powered Global Ontology Engine** — a living, 3D cognitive digital twin of planet Earth.
 
@@ -66,28 +69,40 @@ It ingests multi-domain OSINT streams, constructs a **live relationship graph** 
 ## ✨ Core Features
 
 ### ✈️ Dynamic Global Flight Intelligence
-- **Live Commercial Flights** — Real-time ADS-B via OpenSky Network. Default **white** icons with **cyan target-lock** on selection.
-- **Military / ADS-B Surveillance** — Classified transponder filtering renders tactical assets as **orange directional cursors**.
+
+<img width="1907" height="907" alt="Screenshot 2026-03-10 072728" src="https://github.com/user-attachments/assets/3053d41a-6b60-430b-aa8c-32c239ae3509" />
+<img width="511" height="132" alt="Screenshot 2026-03-09 091116" src="https://github.com/user-attachments/assets/65fe9a6a-63b9-4e72-8fb1-62bf18454037" />
+<img width="517" height="217" alt="Screenshot 2026-03-10 071820" src="https://github.com/user-attachments/assets/c815280c-4c92-4206-afd9-ae54a7c2ae84" />
+- **Live Commercial Flights** — Real-time Flight data via OpenSky Network. Default **white** icons with **cyan target-lock** on selection.
+- **Military / ADS-B Surveillance** — Classified transponder filtering renders tactical assets as **orange directional cursors** uses ADS-B.
 - **Spy-Cam Target Lock** — Clicking a military asset triggers a steep-angle "dive bomb" camera lock (`viewFrom: Cartesian3(0, -1000, 500)`) that bolts the camera directly behind the aircraft.
 - **Smooth Interpolation** — `Cesium.SampledPositionProperty` with `EXTRAPOLATE` mode ensures entities glide continuously at 60fps between 15-second API data polls.
 - **Tactical HUD Labels** — Real-time `VT323` monospace HUD overlays showing Callsign / Altitude / Speed / Operator.
 
 ### 🛰️ Global Infrastructure & Environment
-- **CelesTrak Satellite Orbits** — Live TLE propagation of 1,000+ active satellites using `satellite.js`.
+
+<img width="1888" height="901" alt="Screenshot 2026-03-10 072846" src="https://github.com/user-attachments/assets/fc0ee558-54e4-4c19-a3d3-2a62637c873e" />
+<img width="1868" height="693" alt="Screenshot 2026-03-10 072934" src="https://github.com/user-attachments/assets/d024e8e3-d799-41d3-b2a4-7f226e7a11a5" />
+
+- **CelesTrak Satellite Orbits** — Live TLE propagation of 1,000+ active satellites using `satellite.js` with their names and visual orbit in which they currently are and the area they are covering .
 - **Live Earthquakes (24h)** — USGS ATOM feed, color-coded by magnitude, glowing point entities.
-- **Weather Radar** — Animated weather overlay layers across major regions.
+- **Weather Radar** — Animated weather overlay layers across major regions (uses NOAA'S NEXRAD AND IMD SERVICES{INDIA}).
 - **Subsea Cable & Pipeline Network** — Glowing polylines tracing the world's critical underwater data and energy infrastructure.
 
 ### 🗺️ World Monitor Capabilities
+
+<img width="1902" height="921" alt="Screenshot 2026-03-10 073129" src="https://github.com/user-attachments/assets/63f02e33-d559-4ee8-a130-4efde34feb4c" />
+<img width="1909" height="913" alt="Screenshot 2026-03-10 073245" src="https://github.com/user-attachments/assets/e0063631-592f-4039-8bff-d4d0b42fd93f" />
+
 - **2D/3D Dual Map** — Runtime-switchable between flat Mercator projection and photorealistic 3D globe with Google Maps photorealistic tiles.
 - **Global Instability Heatmap** — Country-level choropleth with a 1–5 risk scoring model for geopolitical events.
-- **Live Street Traffic Arteries** — Ground-clamped particle flow systems along major GeoJSON highway routes.
-- **CCTV Mesh Network** — Autoplaying public YouTube Live Earth/Traffic cams embedded as live-video HTML labels for cities globally.
+- **Live Street Traffic Arteries** — Ground-clamped particle flow systems along major GeoJSON highway routes THAT mimicks the flow but shows actual realtime traffic data.
+- **CCTV Mesh Network** — Autoplaying public YouTube Live Earth/Traffic cams embedded as live-video HTML labels for cities globally in such a way that you can view the 3D representation of the area the camera feeds or live data ( aross yt channels, new and all other resources live feeds) it is coveringcurated into one single dashboard.
 
 ### 🧠 Neural Analytics Hub & Sarvam AI Ontology Engine
 - **Neo4j AuraDB Graph** — All entities (flights, events, corridors, chokepoints) are nodes. The edges represent ontological relationships (e.g., `AFFECTS`, `REROUTES_VIA`, `DEPENDS_ON`).
-- **Sarvam AI Integration** — India's sovereign 30B / 105B parameter LLM reads the live entity subgraphs and generates contextual, interconnected intelligence insights — in English and Indic languages.
-- **Real-time Inference** — The Neural Analytics Hub streams Sarvam's analysis conclusions directly to the dashboard dashboard panel.
+- **Sarvam AI Integration** — India's sovereign 30B / 105B parameter LLM reads the live entity subgraphs and generates contextual, interconnected intelligence insights — in English and Indic languages {it is additionally trained to give accurate insights without hallucination we are using 30B LLM currently}.
+- **Real-time Inference** — The Neural Analytics Hub streams Sarvam's analysis conclusions directly to the dashboard dashboard panel in nodes or a hexagonal available in 3D/2D graph showing relationship between different domains like tech finance or wars like iran currently going on all into one single intelligent insight on how it will affect INDIA it is buit for better decision making for India and India only  .
 
 ### 🎨 Multi-Mode Tactical Visuals (GLSL Post-Processing)
 | Mode | Description |
@@ -95,7 +110,7 @@ It ingests multi-domain OSINT streams, constructs a **live relationship graph** 
 | **NORMAL** | CRT scanline overlay, high-contrast bloom, cinematic atmosphere |
 | **NVG** | Phosphor-green tactical GLSL shader with ambient ambient floor, dampened bloom |
 | **FLIR** | Thermal infrared simulation with heat-signature color palette |
-
+|**playback**| Shows all data of playback on worlds current condition where you see all flghts changing routes, satellites over a specific country etc, with a live situation overlay |
 ---
 
 ## 🛠️ Tech Stack
@@ -167,6 +182,7 @@ npm run dev
 ### 5. Open in Browser
 Navigate to `http://localhost:3000` 🌍
 
+NOTE THE PROJECT IS IN DEVLOPMENT PHASE ACTUAL VERCEL LINK WILL BE PROVIDED SOON
 ---
 
 ## 🇮🇳 Impact on Digital Democracy
@@ -182,7 +198,7 @@ Navigate to `http://localhost:3000` 🌍
 | **Open OSINT** | No classified data dependency; entirely open-source data feeds |
 | **Decision Democratization** | Any ministry analyst can query global geopolitics in their native language |
 
-By replacing foreign LLM dependency with **Sarvam AI**, GOD VIEW ensures that India's most sensitive geopolitical reasoning remains under Indian digital sovereignty. This is the operational definition of *Digital Democracy* — intelligence infrastructure that serves the people, by the people, powered by their own language and their own AI.
+By replacing foreign LLM dependency with **Sarvam AI**, GOD VIEW ensures that India's most sensitive geopolitical reasoning remains under Indian digital sovereignty. This is the operational definition of *Digital Democracy* — intelligence infrastructure that serves the people, by the people, powered by their own language and their own AI ,we are focusing on eliminating majour outside dependencies we possibly can .
 
 ---
 
@@ -190,9 +206,9 @@ By replacing foreign LLM dependency with **Sarvam AI**, GOD VIEW ensures that In
 
 | Role | Contributor |
 |---|---|
-| Full-Stack Architecture & 3D Engine | Smruti |
-| AI / Ontology Graph Design | Team ASTRA-X |
-| Backend Data Ingestion | Team ASTRA-X |
+| Full-Stack Architecture & 3D Engine | SWAGAT SWARUP SAHU (TEAM LEADER) |
+| AI / Ontology Graph Design | SHUBHAM MOHAPATRA |
+| Backend Data Ingestion | SOUMYA RANJAN SAHOO|
 | UI/UX & Shader Design | Team ASTRA-X |
 
 ---
@@ -210,3 +226,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 *"See everything. Understand the connections. Act before the event."*
 
 </div>
+
