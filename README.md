@@ -180,7 +180,7 @@ npm run dev
 ```
 
 ### 5. Open in Browser
-Navigate to `http://localhost:3000` 🌍
+Navigate to `https://frontend-five-nu-57.vercel.app/` 🌍
 
 NOTE THE PROJECT IS IN DEVLOPMENT PHASE ACTUAL VERCEL LINK WILL BE PROVIDED SOON
 ---
@@ -208,7 +208,7 @@ By replacing foreign LLM dependency with **Sarvam AI**, GOD VIEW ensures that In
 |---|---|
 | Full-Stack Architecture & 3D Engine | SWAGAT SWARUP SAHU (TEAM LEADER) |
 | AI / Ontology Graph Design | SHUBHAM MOHAPATRA |
-| Backend Data Ingestion | SOUMYA RANJAN SAHOO|
+| Backend Data Ingestion | SOMYA RANJAN SAHOO|
 | UI/UX & Shader Design | Team ASTRA-X |
 
 ---
